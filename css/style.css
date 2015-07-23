@@ -532,7 +532,7 @@ input[type="radio"] + label::before {
     left: -30px;
     width: 20px;
     height: 20px;
-    background: url('../img/sprites.png') 0 -416px no-repeat;
+    background: url('../img/sprites.png') 0 -415px no-repeat;
     content: "";
 }
 
@@ -553,7 +553,7 @@ input[type="radio"]:checked + label::before {
     position: absolute;
     width: 20px;
     height: 20px;
-    background: url('../img/sprites.png') 0 -346px no-repeat;
+    background: url('../img/sprites.png') 0 -345px no-repeat;
     content: "";
 }
 
