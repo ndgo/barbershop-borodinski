@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: black;
-    background-image: url('../img/index-backgound.jpg');
+    background-image: url("../img/index-backgound.jpg");
     background-repeat: no-repeat;
     background-position: center top;
     font-size: 14px;
@@ -32,7 +32,7 @@ label {
 }
 
 .clearfix::after {
-    content: '';
+    content: "";
     display: table;
     clear: both;
 }
@@ -117,7 +117,7 @@ label {
     left: 20px;
     width: 18px;
     height: 18px;
-    background: url('../img/sprites.png') no-repeat;
+    background: url("../img/sprites.png") no-repeat;
     background-position: 0 -212px;
 }
 
@@ -184,7 +184,7 @@ label {
 .content-index-row {
     margin-bottom: 35px;
     padding: 50px 80px;
-    background: url('../img/column-delimiter.png') no-repeat center, white url('../img/content-background.jpg');
+    background: url("../img/column-delimiter.png") no-repeat center, white url("../img/content-background.jpg");
     color: black;
 }
 
@@ -295,7 +295,7 @@ label {
     text-transform: uppercase;
     background: #f9f6f3;
     outline: none;
-    background: white url('../img/content-background.jpg');
+    background: white url("../img/content-background.jpg");
     color: black;
 }
 
@@ -410,7 +410,7 @@ footer {
     width: 766px;
     height: 560px;
     border: 7px solid white;
-    background: #e9e5dc url('../img/map.jpg');
+    background: #e9e5dc url("../img/map.jpg");
     box-shadow: 0 30px 50px rgba(0, 0, 0, .7);
 }
 
@@ -420,7 +420,7 @@ footer {
     right: -45px;
     width: 22px;
     height: 22px;
-    background: url('../img/sprites.png') 0 -140px no-repeat;
+    background: url("../img/sprites.png") 0 -140px no-repeat;
     content: "";
     cursor: pointer;
 }
@@ -434,7 +434,7 @@ footer {
     width: 300px;
     margin: 0 auto;
     padding: 50px 80px;
-    background: white url('../img/content-background.jpg');
+    background: white url("../img/content-background.jpg");
     box-shadow: 0 30px 50px rgba(0, 0, 0, .7);
     color: black;
 }
@@ -445,7 +445,7 @@ footer {
     right: -40px;
     width: 22px;
     height: 22px;
-    background: url('../img/sprites.png') 0 -140px no-repeat;
+    background: url("../img/sprites.png") 0 -140px no-repeat;
     content: "";
     cursor: pointer;
 }
@@ -470,17 +470,17 @@ footer {
     line-height: 24px;
     text-transform: uppercase;
     color: black;
-    background: white url('../img/content-background.jpg');
+    background: white url("../img/content-background.jpg");
 }
 
 .login > input[name="name"] {
     margin-bottom: 10px;
-    background: no-repeat url('../img/sprites.png') 100% -893px;
+    background: no-repeat url("../img/sprites.png") 100% -893px;
 }
 
 .login > input[name="password"] {
     margin-bottom: 15px;
-    background: no-repeat url('../img/sprites.png') 100% -267px;
+    background: no-repeat url("../img/sprites.png") 100% -267px;
 }
 
 .login > input[name="name"]:hover,
@@ -522,7 +522,7 @@ input[type="checkbox"] + label::before {
     left: -30px;
     width: 20px;
     height: 20px;
-    background: url('../img/sprites.png') 0 -70px no-repeat;
+    background: url("../img/sprites.png") 0 -70px no-repeat;
     content: "";
 }
 
@@ -532,7 +532,7 @@ input[type="radio"] + label::before {
     left: -30px;
     width: 20px;
     height: 22px;
-    background: url('../img/sprites.png') 0 -415px no-repeat;
+    background: url("../img/sprites.png") 0 -415px no-repeat;
     content: "";
 }
 
@@ -545,7 +545,7 @@ input[type="checkbox"]:checked + label::before {
     position: absolute;
     width: 20px;
     height: 20px;
-    background: url('../img/sprites.png') 0 0 no-repeat, url('../img/sprites.png') 0 -70px no-repeat;
+    background: url("../img/sprites.png") 0 0 no-repeat, url("../img/sprites.png") 0 -70px no-repeat;
     content: "";
 }
 
@@ -553,7 +553,7 @@ input[type="radio"]:checked + label::before {
     position: absolute;
     width: 20px;
     height: 22px;
-    background: url('../img/sprites.png') 0 -345px no-repeat;
+    background: url("../img/sprites.png") 0 -345px no-repeat;
     content: "";
 }
 
@@ -570,7 +570,7 @@ input[type="radio"]:checked:disabled + label {
 /* Текстовая страница */
 
 .inner-page {
-    background: white url('../img/content-background.jpg');
+    background: white url("../img/content-background.jpg");
 }
 
 .content-block {
@@ -630,7 +630,7 @@ h1 {
     text-align: center;
     background: red;
     z-index: 2;
-    background: white url('../img/content-background.jpg');
+    background: white url("../img/content-background.jpg");
 }
 
 .container-title::after {
